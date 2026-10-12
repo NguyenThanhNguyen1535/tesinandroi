@@ -17,7 +17,7 @@ data class Student(
 // Extension Function xếp loại học lực
 fun Double.toAcademicRanking(): String {
     return when (this) {
-        in 3.6..4.0 -> "Xuất sắc"
+        in 3.6..4.0 -> "Xuất"
         in 3.2..3.59 -> "Giỏi"
         in 2.5..3.19 -> "Khá"
         in 2.0..2.49 -> "Trung bình"
